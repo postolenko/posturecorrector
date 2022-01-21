@@ -69,6 +69,13 @@ $(document).ready(function() {
 
   // -----------
 
+  $(".video_box_3").on("click", function(e) {
+    e.preventDefault();
+    $(this).find(".ytp-play-button-playlist").trigger("click");
+  });  
+
+  // -----------
+
   var this_form, name, tel, email, message, error;
 
   $(".submitBtn").on("click", function (event) {
