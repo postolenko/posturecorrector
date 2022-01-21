@@ -1011,6 +1011,14 @@ p.icon_p {
     height: 387px;
     background: #C4C4C4;
     position: relative;
+    overflow: hidden;
+}
+
+.video_box video {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
 }
 
 .video_box:after {
