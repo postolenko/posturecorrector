@@ -123,7 +123,6 @@ $(document).ready(function() {
               alert('Ошибка при отправке');
           }
       });
-
   });
 
 });
